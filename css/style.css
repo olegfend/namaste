@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  
+  box-sizing: border-box;
+}
+body {
+
+	text-align: center;
+	margin-bottom: 140px;
+}
+
+
+
+section  {
+	max-width: 960px;
+	margin: 0 auto;
+	flex-direction: row; 
+	align-items: center;
+	align-content: flex-end;
+	
+	
+}
+
+.container {
+	display: flex;
+	background-color: #f7f7f7;
+	flex-grow: 1;
+	flex-direction: row;
+	height: 422px;
+	
+}
+
+
+
+ .anchor:hover p,
+ .anchor:hover h2 {
+	color: white;
+}
+ .diamond:hover p,
+ .diamond:hover h2 {
+	color: white;
+}
+ .glasses:hover p,
+ .glasses:hover h2 {
+	color: white;
+}
+ .monitor:hover p,
+ .monitor:hover h2 {
+	color: white;
+}
+
+
+
+.diamond:hover {
+	background: #00CACC;
+	
+	
+}
+ .anchor:hover {
+	background: #00CACC;
+	
+}
+ .glasses:hover {
+	background: #00CACC;
+}
+ .monitor:hover {
+	background: #00CACC;
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+a:hover {
+	text-decoration: none;
+	
+}
+
+
+
+
+
+
+h1 {
+opacity:1;
+color:#0EC8CB;
+font-size:48px;
+margin: 40px auto;
+
+}
+
+
+h2 {
+opacity:1;;
+color:#black;
+font-family:Montserrat-Regular,AdobeInvisFont,MyriadHebrew-Regular;
+font-size:21px;
+align:center;
+}
+
+.header  {
+	display: block;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #88909b;
+    padding-top: 144px;
+    margin-bottom: 28px;
+    line-height: 30px;
+    letter-spacing: 4.3px;
+}
+
+.header p:last-child {
+opacity:1;
+color:#999999;
+font-size:18px;
+align:center;
+margin-bottom: 110px;
+}
+
+.anchor:hover img {
+	filter: invert();
+}
+.diamond:hover img {
+	filter: invert();
+}
+.monitor:hover img {
+	filter: invert();
+}
+.glasses:hover img {
+	filter: invert();
+}
+
+
+
+a {
+	text-decoration: none;
+	color: #8E8E8E;
+}
+
+
+.anchor, .diamond, .glasses, .monitor {
+	padding: 0 5px;
+}
+
+h2 {
+	color: #141414;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+    text-transform: uppercase;
+    padding: 0 26px;
+    margin-bottom: 18px;
+	 
+}
+
+img {
+	padding-top: 63px;
+    margin-bottom: 48px;
+}
+
+
